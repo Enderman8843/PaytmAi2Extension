@@ -1,13 +1,12 @@
 
-[details="Details"]
 This Extension Creates Paytm Payment using this method
 
 [[Free/OS] Paytm Payment API Custom Amount - Guides / Resources - Kodular Community](https://community.kodular.io/t/free-os-paytm-payment-api-custom-amount/120966)
 
-[/details]
 
 
-[details="Instruction and Blocks"]
+
+
 > ![image|367x185, 75%](upload://jEd3cKc1IPRWCG7sjoB5WBmpatl.png) 
 **Parameters**
 
@@ -27,9 +26,9 @@ This Extension Creates Paytm Payment using this method
  Gives The Generated Link
  
 
-[/details]
 
-[details="Setup"]
+
+
 #### Steps For Test Payment
 
 1. Create An Account in Paytm Business
@@ -123,26 +122,11 @@ To Get The Success or Failure Event Use this
 ![image|690x301](upload://vG12MjF46xPwNgaNTubet4RYBmx.png) 
  
 
-[/details]
-
-
-[details="Files"]
-Test Script : - [PaytmTestScript.zip|attachment](upload://iQmmXjFR9kvCWugbeVIuPEXFlqx.zip) (6.3 KB) 
-Production Script : - [PaytmProductionScript.zip|attachment](upload://6OQWEppGDRxts5EX3cqzBH5fWqI.zip) (6.4 KB) 
-AIX :- [Paytm.aix|attachment](upload://7LKAcJ4t1TnUNCGPrn9ZulnHR2D.aix) (4.4 KB) 
-APK:- [FilthyJadeMoth.apk|attachment](upload://x5saT5q6EesfMGnjVn6FC09rU4a.apk) (5.2 MB) 
-AIS :- [FilthyJadeMoth_Screen1.ais|attachment](upload://cOu256UJ05bTEKLkU9kM2I7sqka.ais) (4.3 KB) 
-[/details]
 
 
 
-[details="Credits"]
-Paytm by @One97
-:kodular:odular by @Kodular
-[Appetize.io](http://appetize.io/) By @Appetize
-AwardSpace By @AwardSpace
 
-[/details]
+
 
 
 # Liked My Work Hit The Like button :+1:
