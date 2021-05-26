@@ -1,132 +1,28 @@
+# Paytm Extension
 
-This Extension Creates Paytm Payment using this method
+Paytm Extension is a Appinventor Plugin for dealing with Payment Via Paytm.
 
-[[Free/OS] Paytm Payment API Custom Amount - Guides / Resources - Kodular Community](https://community.kodular.io/t/free-os-paytm-payment-api-custom-amount/120966)
+## Installation
 
-
-
-
-
-> ![image|367x185, 75%](upload://jEd3cKc1IPRWCG7sjoB5WBmpatl.png) 
-**Parameters**
-
-    name: DomainUrl
-    type: text
- 
-    "name": "OrderId",
-    "type": "number"
-  
-    "name": "CustomerId",
-    "type": "number"
-  
-    "name": "Amount",
-    "type": "number"
-
->![image|328x124, 75%](upload://nek5H91YgbnwcVDJEqUF0cGOTWv.png) 
- Gives The Generated Link
- 
+1. Open Any Distro I use Kodular 
+2. Create A new Project or use apps.new
+3. ![image](https://user-images.githubusercontent.com/23038093/119612899-1541e800-be1a-11eb-90fc-1a638c450d61.png)
+4. Click on Puzzle Image 
+5. Click on ![image](https://user-images.githubusercontent.com/23038093/119612987-2d196c00-be1a-11eb-909b-463c8e2a2760.png)
+6. FIle Dialog Appears 
+7. Choose The AIX FIle https://github.com/sashibhusan1977/PaytmAi2Extension/tree/main/Aix From
 
 
+## Usage
 
+https://community.kodular.io/t/free-paytm-payment-api-based-extension/123409
 
-#### Steps For Test Payment
+```
 
-1. Create An Account in Paytm Business
-![image|690x336, 50%](upload://cWWV5vv9vdrplanloxjXOvZX4sy.jpeg)  
+## Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
-2. After Creating Sign In With Your Password and Email/Phone Number
-![image|690x275, 50%](upload://b4yEilEwVm4hQ9j3d8JE9swOyj9.jpeg) 
+Please make sure to update tests as appropriate.
 
-3. It would ask OTP 
-![image|690x265, 50%](upload://oAsB80j074xlRqh6p8y81a8A4Hu.jpeg) 
-
-4.Paytm Dashboard Would Appear
-![image|690x317, 50%](upload://tDIWMRl6WSkphgxcuUS7S0i5vNp.png) 
-
-5.Click On Developer Settings
-![image|690x335, 50%](upload://rTrYOOlSLpG5WbjDceEDxVbgERJ.png) 
-
-6. Click on API Keys 
-![image|690x298, 50%](upload://r2T1w3kHN4sN3Ar7agDIbHIyIz.png) 
-
-7. Click On Generate Test API Keys 
-![image|619x482, 50%](upload://d09XPVsdydCKBFdeM2QvZVxqqGI.png) 
-
-8. After generating Merchant Id And Merchant Keys 
-Copy The Details To Notepad 
-
-9. Edit The Details in `C:\Users\Asus\Downloads\PaytmTestScript\PaytmTestScript\lib\config-paytm.php`
-
-![image|690x219, 75%](upload://eKLkDg5CkY0BaCutVboO2C9lTnl.png) 
-
-10. Upload To Your Hosting The Full Script
-I use AwardSpace 
-11. Upload To Your Hosting The Full Script
-I use AwardSpace 
-![image|121x58, 75%](upload://118o7iiqadEONoGKFjs1A4lr5A7.png)
-
-12. Copy The https://example.com/PaytmExtension/pgRedirect.php
-
-13. Paste the URL in The DomainURL
-
-File structure
-![image|690x228](upload://uXFjyFxOj3vUYeiq8QkB6EMjYX9.png) 
-<hr>
-
-#### Steps For Production Payment
-1. Create An Account in Paytm Business
-![image|690x336, 50%](upload://cWWV5vv9vdrplanloxjXOvZX4sy.jpeg)  
-
-2. After Creating Sign In With Your Password and Email/Phone Number
-![image|690x275, 50%](upload://b4yEilEwVm4hQ9j3d8JE9swOyj9.jpeg) 
-
-3. It would ask OTP 
-![image|690x265, 50%](upload://oAsB80j074xlRqh6p8y81a8A4Hu.jpeg) 
-
-4.Paytm Dashboard Would Appear
-![image|690x317, 50%](upload://tDIWMRl6WSkphgxcuUS7S0i5vNp.png) 
-
-5.Click On Developer Settings
-![image|690x335, 50%](upload://rTrYOOlSLpG5WbjDceEDxVbgERJ.png) 
-
-6. Click on API Keys 
-![image|690x298, 50%](upload://r2T1w3kHN4sN3Ar7agDIbHIyIz.png) 
-
-7. Click On Generate Production API Keys 
-
-
-8. After generating Merchant Id And Merchant Keys 
-Copy The Details To Notepad 
-
-10. Edit The Details in `C:\Users\Asus\Downloads\PaytmProductionScript\PaytmProductionScript\lib\config-paytm.php`
-![image|690x219, 75%](upload://eKLkDg5CkY0BaCutVboO2C9lTnl.png) 
-
-11. Upload To Your Hosting The Full Script
-I use AwardSpace 
-![image|121x58, 75%](upload://118o7iiqadEONoGKFjs1A4lr5A7.png)
-
-12. Copy The https://example.com/PaytmExtension/pgRedirect.php
-
-13. Paste the URL in The DomainURL
-
-[/details]
-
-
-
-
-[details="Usage"]
-### This Extension Can Be Used with The Inbuilt Component WebView Like This
-![image|690x389, 75%](upload://h6nE1Kj5GxcpXGIP6Fsfom5Kctr.png) 
-
-To Get The Success or Failure Event Use this
-![image|690x301](upload://vG12MjF46xPwNgaNTubet4RYBmx.png) 
- 
-
-
-
-
-
-
-
-
-# Liked My Work Hit The Like button :+1:
+## License
+[Creative Commons Zero v1.0 Universal]https://creativecommons.org/publicdomain/zero/1.0/
