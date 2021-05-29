@@ -13,7 +13,7 @@ import com.google.appinventor.components.runtime.EventDispatcher;
           description = "Paytm Extension Created By Sashibhusan_Coder",
         category = ComponentCategory.EXTENSION,
         nonVisible = true,
-        iconName = "https://i.ibb.co/82gW8sR/Icon.png")
+        iconName = "https://i.ibb.co/P4df312/Hnet-com-image.png")
 
 @SimpleObject(external = true)
 //Libraries
@@ -36,8 +36,8 @@ public class Paytm extends AndroidNonvisibleComponent {
 
 
     @SimpleFunction(description = "Creates Payment")
-    public void IntiatePayment(String DomainUrl, int OrderId , int CustomerId ,int Amount) {
-       URLGenerated(DomainUrl + "?" + "OID" + "=" + OrderId + "&" + "CID" + "=" + CustomerId +"&" + "AMT" + "=" +  Amount);
+    public void IntiatePayment(String domainUrl, int orderId , int customerId ,int amount) {
+       URLGenerated(domainUrl + "?" + "OID" + "=" + orderId + "&" + "CID" + "=" + customerId +"&" + "AMT" + "=" +  amount);
     }
   
     @SimpleEvent(description = "Generated URL")
